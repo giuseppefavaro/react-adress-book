@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.020eb237.css",
-    "main.js": "/static/js/main.f5542a1c.js",
-    "index.html": "/index.html",
-    "main.020eb237.css.map": "/static/css/main.020eb237.css.map",
-    "main.f5542a1c.js.map": "/static/js/main.f5542a1c.js.map"
+    "main.css": "/react-adress-book/static/css/main.020eb237.css",
+    "main.js": "/react-adress-book/static/js/main.f5542a1c.js",
+    "index.html": "/react-adress-book/index.html",
+    "main.020eb237.css.map": "/react-adress-book/static/css/main.020eb237.css.map",
+    "main.f5542a1c.js.map": "/react-adress-book/static/js/main.f5542a1c.js.map"
   },
   "entrypoints": [
     "static/css/main.020eb237.css",
