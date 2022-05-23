@@ -5,12 +5,13 @@
     input {
         margin-bottom: 15px;
         width: 100%;
-        border: 1px solid #ECEFF1;;
+        border: 1px solid #CFD8DC;;
         padding: 15px;
     }
 
     &__btn {
-        border: none;
+        margin-top: 20px;
+        border: none !important;
         background: #2962FF ;
         color: #fff;
         font-weight: bold;
