@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ECEFF1;
+  font-size: 15px;
+  line-height: 1.4;
+  background:  #f7fafc;
+  color: #455a64;
+}
+
+.App {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  
+}
+
+.App__left {
+  width: 400px;
+  padding: 20px;
+}
+.App__right {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+
+  .App {
+    flex-wrap: wrap;
+  }
+
+  .App__left {
+    width: 100%;
+  }
+
+}

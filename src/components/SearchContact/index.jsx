@@ -4,8 +4,8 @@ const SearchContact = ({setSearchContact, searchContact}) => {
     
   return (
 
-    <form className={styles.wrapper}>
-      <input type="text" value={searchContact} onChange={(e) => setSearchContact(e.target.value)} />
+    <form className={styles.SearchContact}>
+      <input type="text" value={searchContact} placeholder="Ricerca per nome/cognome" onChange={(e) => setSearchContact(e.target.value)} />
     </form>
 
   );

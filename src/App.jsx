@@ -1,4 +1,4 @@
-import './App.css';
+import styles from './App.module.scss';
 
 import { useState } from 'react';
 
@@ -35,13 +35,12 @@ function App() {
     
 
   return (
-    <main className="wrapper">
-      <div className="wrapper__left">
+    <main className={styles.App}>
+      <div className={styles.App__left}>
         <AddNewMessage formData={formData} />
       </div>
-      <div className="wrapper__right">
+      <div className={styles.App__right}>
         <SearchContact setSearchContact={setSearchContact} searchContact={searchContact}/>
-
         <MessageList contactInfo={contactInfo} searchContact={searchContact} delContact={delContact} />
       </div>
     </main>
